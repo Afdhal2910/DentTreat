@@ -33,6 +33,10 @@
     max-height: 0;
     
   }
+
+  .color-black {
+    color: #091E3E;
+  }
   
   
   
@@ -74,9 +78,29 @@
   /* Right Arrow - end */
   
 /* ------------------------------ */
+/* youtube iframe */
+.container-iframe {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 62.5%; /* 8:5 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
 
 
 
+
+/* ------------------------------ */
 
 .transition, ul li i:before, ul li i:after, p {
     transition: all 0.25s ease-in-out;
@@ -206,3 +230,4 @@
       transform: rotateX(0deg);
     }
   }
+

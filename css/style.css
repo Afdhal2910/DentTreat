@@ -216,7 +216,7 @@ h6,
 
 .team-item .team-text::after,
 .service-item .bg-light::after {
-    position: absolute;
+    /* position: absolute;
     content: "";
     top: 50%;
     bottom: 0;
@@ -226,7 +226,7 @@ h6,
     box-shadow: 0 0 15px rgba(0, 0, 0, .7);
     opacity: 0;
     transition: .5s;
-    z-index: -1;
+    z-index: -1; */
 }
 
 .team-item:hover .team-text::after,
